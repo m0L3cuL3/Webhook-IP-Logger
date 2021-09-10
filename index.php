@@ -4,7 +4,7 @@
  Last update : 29/03/2020
 */
 ini_set('display_errors','off');
-/*<------------- Placer le lien webhook ici ------------------>*/ $webhook = "INSERT WEBHOOK HERE";
+$webhook = "webhook here";
 $user_agent     =   $_SERVER['HTTP_USER_AGENT'];
 function getOS() { 
     global $user_agent;

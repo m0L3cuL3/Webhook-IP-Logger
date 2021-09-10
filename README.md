@@ -1,20 +1,20 @@
 # WebHook IP Tracker
 
-IP Logger using an ip tracker and sends informational traffic to a discordant channel via webhooks
+IP Logger using an ip tracker and sends the traffic to a discord channel via webhooks
 
 
 
 ##  Installation Process
 1. Upload the index.php and script.php files to the same level in the tree structure of your web hosting.
-2. To connect your webhook, just replace **INSERT WEBHOOK HERE** with the link of your webhook
+2. To connect your webhook, just replace **webhook here** with the link of your webhook
 ```php
 /*<------- WebHooks ------------>*/
-$webhook = "INSERT WEBHOOK HERE";
+$webhook = "webhook here";
 ```
 
 ##  Modification
 
-To change the display of the data, modify this part with MarkDown
+To change the display of the data, modify this part with Markdown
 ```php                             
 "
 IP: {$geoplugin->ip}
@@ -35,4 +35,5 @@ Accuracy (Miles): {$geoplugin->locationAccuracyRadius}
 Timezone: {$geoplugin->timezone}
 "
 ```
+
 credits to https://github.com/Elyasuuuuu
